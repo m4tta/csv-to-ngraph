@@ -1,0 +1,22 @@
+{
+  "name": "csv-to-ngraph",
+  "version": "0.0.1",
+  "description": "converts csv to ngraph format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "csv"
+  ],
+  "author": "m4tta <matt@fizzled.me>",
+  "license": "MIT",
+  "dependencies": {
+    "ngraph.graph": "0.0.12",
+    "ngraph.offline.layout": "^1.1.1",
+    "ngraph.tobinary": "^1.0.1",
+    "progress": "^1.1.8",
+    "yargs": "^4.8.0"
+  }
+}
