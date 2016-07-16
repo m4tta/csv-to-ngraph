@@ -1,7 +1,7 @@
 const fs = require('fs');
 const argv = require('yargs').argv;
 const ProgressBar = require('progress');
-const graph = require('ngraph.graph')();
+const graph = require('ngraph.graph')({uniqueLinkId: false});
 const createLayout = require('ngraph.offline.layout');
 const toBinary = require('ngraph.tobinary');
 const file = fs.readFileSync(argv.i, 'utf-8');
